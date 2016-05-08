@@ -1,0 +1,100 @@
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#bodyPaddFix{
+	padding: 0;
+	margin: 0;
+}
+
+#imageGalleryContainerBack{
+	width: 800px;
+	height: 370px;
+	background-color: gray;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 0px 0px 15px black;
+}
+
+#imageGalleryContainerFore{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+}
+
+#imageContainerMain{
+	width: 800px;
+	height: 300px;
+	background-color: black;
+}
+
+#thumbContainerMain{
+	width: 800px;
+	height: 70px;
+	background-color: #202020;
+	position: absolute;
+}
+
+#currentImage{
+	width: 100%;
+	height: 100%;
+}
+
+.imageThumb{
+	width: 75px;
+	height: 45px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 12px;
+	float: left;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	cursor: pointer;
+}
+
+.imageThumb:hover{
+	border-color: white;
+}
+
+.imgStyle{
+	width: 100%;
+	height: 100%;
+}
+
+#thumb1{
+	margin-left: 40px;
+}
+
+.imgNavContainerMain{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	margin-top: 20px;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.imgNavContainerMain:hover{
+	opacity: 1;
+}
+
+#imgNavRight{
+	right: 0;
+}
+
+.imgNavTxt{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: -2px;
+}

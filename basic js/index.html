@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Image Gallery | Basic JavaScript
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheets/mainStyle.css">
+		<script src = "scripts/imageViewer.js" type="text/javascript"></script>
+	</head>
+	<body id = "bodyPaddFix" onkeyDown = "arrowKeys(event)">
+		<div id = "imageGalleryContainerBack">
+			<div id = "imageGalleryContainerFore">
+				<div id = "imageContainerMain">
+					<img id = "currentImage" src="images/img1.jpg">
+				</div>
+				<div id = "thumbContainerMain">
+					<ul>
+						<li>
+							<div class = "imageThumb" id = "thumb1" onclick = "imageViewer(1, false, 'NA')">
+								<img src="images/img1.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(2, false, 'NA')">
+								<img src="images/img2.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(3, false, 'NA')">
+								<img src="images/img3.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(4, false, 'NA')">
+								<img src="images/img4.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(5, false, 'NA')">
+								<img src="images/img5.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(6, false, 'NA')">
+								<img src="images/img6.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(7, false, 'NA')">
+								<img src="images/img7.jpg" class = "imgStyle">
+							</div>
+						</li>
+						<li>
+							<div class = "imageThumb" onclick = "imageViewer(8, false, 'NA')">
+								<img src="images/img8.jpg" class = "imgStyle">
+							</div>
+						</li>
+					</ul>
+					<div class = "imgNavContainerMain" id = "imgNavLeft" onclick = "imageViewer('NA', true, 'prev')">
+						<p class = "imgNavTxt" id = "imgNavTxtLeft">
+							<
+						</p>
+					</div>
+					<div class = "imgNavContainerMain" id = "imgNavRight" onclick = "imageViewer('NA', true, 'next')">
+						<p class = "imgNavTxt" id = "imgNavTxtRight">
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
